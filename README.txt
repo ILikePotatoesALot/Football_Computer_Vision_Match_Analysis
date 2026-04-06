@@ -1,3 +1,8 @@
+To start off, this code is incomplete since I can't upload the custom YOLO model and the videos i used to analyze itself. 
+The video dataset can be found here: https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/20
+The model training can be found 
+
+
 How to start the program:
 1. Create a new anaconda env (recommended)
 2. Activate the anaconda env
@@ -11,19 +16,15 @@ set ELEVENLABS_API_KEY=__
 
 Possible Issues:
 "Model not found": In tracking_utils.py, change the model location to the exact location of your model.
-(e.g. MODEL = YOLO("C:/Users/Austi/Sem4/Sem4 GAIT/GAIT ASSG/football-analyzer/Initia/Football_Custom.pt"))
+(e.g. MODEL = YOLO("C:/football-analyzer/Initia/Football_Custom.pt"))
 
 Same for streamlit, if it doesn't work run the exact location of the file using python:
-(e.g. python -m streamlit run "C:\Users\Austi\Sem4\Sem4 GAIT\GAIT ASSG\football-analyzer\initia\app_restructured.py)
+(e.g. python -m streamlit run "C:\football-analyzer\initia\app_restructured.py)
 
 Directory:
-analyzed_videos: My already analyzed videos and is there if you wish to see the end product without analysis and to also see my progress towards the end product
-
-Test_Sample_Videos: A series of 30 second clips you can test on the model to see it's effectiveness.
-
 app_restructured.py: The main streamlit code
 
-Football_Custom.pt: The custom trained yolo model used in the code
+Football_Custom.pt: The custom trained yolo model used in the code (NOT HERE)
 
 prompts.py: A separate file that stores all the exact prompts used for the LLMs in app_restructured.py
 
