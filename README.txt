@@ -2,6 +2,7 @@ To start off, this code is incomplete since I can't upload the custom YOLO model
 The video dataset can be found here: https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/20
 Sample Video can be seen here: https://youtu.be/JEs_juJX8O8
 
+
 How to start the program:
 1. Create a new anaconda env (recommended)
 2. Activate the anaconda env
@@ -23,6 +24,8 @@ Same for streamlit, if it doesn't work run the exact location of the file using 
 Directory:
 app_restructured.py: The main streamlit code
 
+FootballModelTraining.ipynb: The code used to train the custom YOLOv11 model.
+
 Football_Custom.pt: The custom trained yolo model used in the code (NOT HERE)
 
 prompts.py: A separate file that stores all the exact prompts used for the LLMs in app_restructured.py
@@ -30,3 +33,4 @@ prompts.py: A separate file that stores all the exact prompts used for the LLMs 
 requirements.txt: A set of required libraries and dependencies needed to run the code
 
 tracking_utils.py: the util file that stores the YOLO and bytetrack model weights and controls the video analysis portion.
+
