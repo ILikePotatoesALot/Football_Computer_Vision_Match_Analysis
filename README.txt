@@ -1,7 +1,6 @@
 To start off, this code is incomplete since I can't upload the custom YOLO model and the videos i used to analyze itself. 
 The video dataset can be found here: https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/20
-The model training can be found 
-
+Sample Video can be seen here: https://youtu.be/JEs_juJX8O8
 
 How to start the program:
 1. Create a new anaconda env (recommended)
